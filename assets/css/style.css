@@ -247,12 +247,13 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
-  top: -43%;
+  top: -33%;
+  left: -20%
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 45px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
