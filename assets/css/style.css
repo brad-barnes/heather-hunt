@@ -296,7 +296,8 @@ h6 {
   }
 
   #hero .hero-container {
-    top: -46%
+    top: -46%;
+    left: 0;
   }
 }
 
