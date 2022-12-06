@@ -290,6 +290,23 @@ h6 {
   }
 }
 
+.desktop {
+  display: initial;
+}
+.mobile {
+  display: none;
+}
+
+
+@media (max-width: 975px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: initial;
+  }
+}
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 40px;
@@ -325,12 +342,12 @@ h6 {
   }
 
   #hero .hero-container {
-    top: -45%;
-    left: -4%;
+    top: -46%;
+    left: -3%;
   }
 
   #hero p {
-    font-size: 30px;
+    font-size: 29px;
   }
 }
 
